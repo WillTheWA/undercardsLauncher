@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undercards</title>
+    <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet" type="text/css">
+    <style>
+        @font-face {
+            font-family: 'DTM-Mono';
+            src: url('{{ url_for('static', filename='fonts/DTM-Mono.otf') }}') format('truetype');
+        }
+    </style>
+</head>
+<body>
+    <style>
+        body {
+            font-family: 'DTM-Mono', serif;
+            color: #fff;
+            background-image: url('{{ url_for('static', filename='images/uty_homepage.png') }}');
+            background-color: #000;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+    <br><br>
+    <header>
+        <img src="{{ url_for('static', filename='images/undercardsLogoUTY.png') }}" alt="Undercards Logo">
+    </header>
+    <center>
+        <h1>Launcher by William Morton</h1>
+        <br><br>
+        <h1><a href="https://undercards.net/SignIn">Play</a></h1>
+        <!--<p>Options</p>-->
+        <!--<p>Quit</p>-->
+    </center>
+</body>
+<footer>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav" style="list-style-type: none">
+                <li>Undertale by Toby Fox<br><span>Undercards © 2025</span></li>
+            </ul>
+        </div>
+    </nav>
+</footer>
+</html>
