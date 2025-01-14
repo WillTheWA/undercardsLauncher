@@ -16,6 +16,12 @@ header h1 {
     padding-top: 30px;
 }
 
+header h2 {
+    font-size: 48px;
+    margin: 0px;
+    padding-top: 20px;
+}
+
 footer {
     position: fixed;
     width: 900px;
